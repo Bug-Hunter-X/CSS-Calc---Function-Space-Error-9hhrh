@@ -1,0 +1,11 @@
+The correct usage of `calc()` requires spaces around the operators.  Here's how to fix the issue:
+
+```css
+/* Incorrect */
+width: calc(100%-10px);
+
+/* Correct */
+width: calc(100% - 10px);
+```
+
+By adding spaces between `100%`, `-`, and `10px`, the calculation is correctly parsed.  This ensures that the width is calculated as 100% of the container minus 10 pixels.
